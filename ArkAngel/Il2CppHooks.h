@@ -1,4 +1,5 @@
 #pragma once
+// sex?
 #include "Console.h"
 #define IsMapPointNearEnough(mapPoint, playerMapPoint, range) (abs(playerMapPoint.x - mapPoint.x) <= range && abs(playerMapPoint.y - mapPoint.y) <= range)
 #define il2cpp_hook(method, target, original) if (method != nullptr) {MH_CreateHook(method->methodPointer, target, &original);}
